@@ -24,7 +24,7 @@ function App() {
       const response = await axios.get("https://api.giphy.com/v1/gifs/search", {
         params: {
           api_key: "yREcujXvrH2lsYZyjVZKEEttmAvn5kkl",
-          q: "SpongeBob SquarePants",
+          q: "SpongeBobSquarePants",
           limit: 9,
         },
       });
