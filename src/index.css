@@ -14,3 +14,8 @@ html{
     background-size: cover;
     background-color: aqua;
 }
+.back-flip-bg{
+    background: url('./assets/back-flip.png') ;
+    background-position: center;
+    background-size: cover;
+}
