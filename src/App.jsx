@@ -83,7 +83,7 @@ function App() {
     <div className="flex h-screen">
       {isGameOver && <GameOver handleIsGameOver={handleIsGameOver}></GameOver>}
       <SideBarScore maxScore={maxScore} score={score}></SideBarScore>
-      <div className="h-screen w-full flex flex-col items-center justify-center bg">
+      <div className="h-full w-full flex flex-col items-center justify-center bg">
         {console.log(clickedCards)}
         <div className="w-fit h-full grid grid-cols-2 md:grid-cols-3 justify-items-center gap-6 items-center px-28 py-3">
           {cards.map((card, index) => (

@@ -8,7 +8,7 @@ export default function Card({ content, isFlipped, handleClick }) {
     <>
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div
-          className="h-[161.500px] w-28 border border-black shadow-lg"
+          className="h-[161.500px] md:w-28 w-20 border border-black shadow-lg"
           onClick={handleClick}
         >
           <img
