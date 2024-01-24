@@ -22,7 +22,7 @@ export default function Card({ content, isFlipped, handleClick }) {
           onClick={handleClick}
         >
           <img
-            src={"src/assets/back-flip.png"}
+            src={"/src/assets/back-flip.png"}
             style={{ width: "100%", height: "100%" }}
           />
         </div>
